@@ -11,7 +11,8 @@ Given an array of integers `heights` representing the histogram's bar height whe
 ```
 Input: heights = [2,1,5,6,2,3]
 Output: 10
-Explanation: The above is a histogram where width of each bar is 1. The largest rectangle is shown in the red area, which has an area = 10 units.
+Explanation: The above is a histogram where width of each bar is 1. The largest rectangle is shown in the red area, 
+which has an area = 10 units.
 ```
 
 **Example 2:**
@@ -53,6 +54,6 @@ class Solution:
           w = i - stack[-1]-1
           ans = max(ans, h*w)
          stack.append(i)
-       return ans
+       
 ```
 
