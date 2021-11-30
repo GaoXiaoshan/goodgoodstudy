@@ -6,7 +6,7 @@ Readme
 
 ## [Level Order Traversal](#leetcode-87-scramble-string)
 
-[test](./87.md)
+[test](./lc_87.md)
 
 
 
